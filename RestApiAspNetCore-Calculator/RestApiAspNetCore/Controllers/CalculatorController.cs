@@ -18,7 +18,7 @@ namespace RestApiAspNetCore.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{firstNumber}/{secondNumber}")]
+        [HttpGet("sum/{firstNumber}/{secondNumber}")]
         public ActionResult Sum(string firstNumber, string secondNumber)
         {
             if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
@@ -29,6 +29,43 @@ namespace RestApiAspNetCore.Controllers
 
             return BadRequest("Invalid Input");
         }
+
+        [HttpGet("subtraction/{firstNumber}/{secondNumber}")]
+        public ActionResult Subtraction(string firstNumber, string secondNumber)
+        {
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
+            {
+                var subtraction = ConvertToDecimal(firstNumber) - ConvertToDecimal(secondNumber);
+                return Ok(subtraction.ToString());
+            }
+
+            return BadRequest("Invalid Input");
+        }
+
+        [HttpGet("division/{firstNumber}/{secondNumber}")]
+        public ActionResult Division(string firstNumber, string secondNumber)
+        {
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
+            {
+                var division = ConvertToDecimal(firstNumber) / ConvertToDecimal(secondNumber);
+                return Ok(division.ToString());
+            }
+
+            return BadRequest("Invalid Input");
+        }
+
+        [HttpGet("multiplication/{firstNumber}/{secondNumber}")]
+        public ActionResult Multiplication(string firstNumber, string secondNumber)
+        {
+            if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
+            {
+                var multiplication = ConvertToDecimal(firstNumber) * ConvertToDecimal(secondNumber);
+                return Ok(multiplication.ToString());
+            }
+
+            return BadRequest("Invalid Input");
+        }
+
 
         private decimal ConvertToDecimal(string number)
         {
