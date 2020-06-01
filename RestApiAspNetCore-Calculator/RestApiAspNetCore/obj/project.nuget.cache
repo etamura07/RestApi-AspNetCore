@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d0eLWHeFOYFR/HLRUFsbbD8p7POgzHGxkkJFXZDGwLPQxF3h6lGjM1v3krWHLfAJKgo9lZ3BurEqI53i02jJyA==",
+  "dgSpecHash": "+0I5DWeg9OcLKwkaEHJY5wDQ1K9AFlzXCBoNPwYq0QfFy8a42nimKxKrLdNKJzrz0WmcnZenQjjYZlwWEfLyvA==",
   "success": true,
-  "projectFilePath": "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore\\RestApiAspNetCore\\RestApiAspNetCore.csproj",
+  "projectFilePath": "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore-Calculator\\RestApiAspNetCore\\RestApiAspNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\memet\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\memet\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

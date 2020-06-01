@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore\\RestApiAspNetCore\\RestApiAspNetCore.csproj": {}
+    "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore-Calculator\\RestApiAspNetCore\\RestApiAspNetCore.csproj": {}
   },
   "projects": {
-    "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore\\RestApiAspNetCore\\RestApiAspNetCore.csproj": {
+    "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore-Calculator\\RestApiAspNetCore\\RestApiAspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore\\RestApiAspNetCore\\RestApiAspNetCore.csproj",
+        "projectUniqueName": "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore-Calculator\\RestApiAspNetCore\\RestApiAspNetCore.csproj",
         "projectName": "RestApiAspNetCore",
-        "projectPath": "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore\\RestApiAspNetCore\\RestApiAspNetCore.csproj",
+        "projectPath": "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore-Calculator\\RestApiAspNetCore\\RestApiAspNetCore.csproj",
         "packagesPath": "C:\\Users\\memet\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore\\RestApiAspNetCore\\obj\\",
+        "outputPath": "D:\\ProjetoAulas\\RestApi-AspNetCore\\RestApiAspNetCore-Calculator\\RestApiAspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\memet\\AppData\\Roaming\\NuGet\\NuGet.Config",
